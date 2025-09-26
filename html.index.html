@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduOffline - Conteúdos Educacionais Offline</title>
+    <meta name="description" content="Aplicação simples para acesso a materiais educacionais em locais com internet limitada">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header role="banner">
+        <div class="container">
+            <h1 class="logo">EduOffline</h1>
+            <nav role="navigation" aria-label="Navegação principal">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#materiais">Materiais</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main role="main">
+        <section id="inicio" aria-labelledby="hero-title">
+            <div class="container">
+                <h2 id="hero-title">Conteúdos Educacionais Acessíveis Offline</h2>
+                <p>
+                    Solução para comunidades escolares com acesso limitado à internet. 
+                    Baixe materiais quando estiver online e utilize offline quando necessário.
+                </p>
+            </div>
+        </section>
+
+        <section id="materiais" aria-labelledby="materials-title">
+            <div class="container">
+                <h2 id="materials-title">Materiais Disponíveis</h2>
+                <p>Conteúdos organizados por disciplina e série. Baixe quando tiver internet e utilize offline.</p>
+                
+                <div class="materials-grid">
+                    <article class="material-card" aria-labelledby="material-1">
+                        <h3 id="material-1">Operações Fundamentais</h3>
+                        <p>Aprenda adição, subtração, multiplicação e divisão com exercícios práticos.</p>
+                        <p><strong>Disciplina:</strong> Matemática | <strong>Série:</strong> 1º-3º Ano</p>
+                        <button>Baixar para Offline</button>
+                    </article>
+
+                    <article class="material-card" aria-labelledby="material-2">
+                        <h3 id="material-2">Alfabetização e Leitura</h3>
+                        <p>Materiais para desenvolvimento da leitura e escrita com histórias infantis.</p>
+                        <p><strong>Disciplina:</strong> Português | <strong>Série:</strong> 1º-2º Ano</p>
+                        <button>Baixar para Offline</button>
+                    </article>
+
+                    <article class="material-card" aria-labelledby="material-3">
+                        <h3 id="material-3">Ecologia Local</h3>
+                        <p>Conheça a fauna e flora da sua região com guias ilustrados e atividades.</p>
+                        <p><strong>Disciplina:</strong> Ciências | <strong>Série:</strong> 2º-3º Ano</p>
+                        <button>Baixar para Offline</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="offline" aria-labelledby="offline-title">
+            <div class="container">
+                <h2 id="offline-title">Como Funciona o Modo Offline</h2>
+                <ol>
+                    <li><strong>Baixe os Materiais:</strong> Quando tiver internet, selecione e baixe os conteúdos desejados.</li>
+                    <li><strong>Acesse Offline:</strong> Os materiais ficam disponíveis mesmo sem conexão com a internet.</li>
+                    <li><strong>Atualize quando Conectar:</strong> Quando voltar a ter internet, sincronize para obter novos conteúdos.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="sobre" aria-labelledby="about-title">
+            <div class="container">
+                <h2 id="about-title">Sobre o Projeto</h2>
+                <h3>Problema Identificado</h3>
+                <p>Comunidades escolares em áreas rurais e periféricas enfrentam limitações de acesso à internet, dificultando o uso de recursos educacionais digitais.</p>
+                
+                <h3>Nossa Solução</h3>
+                <p>Aplicação web simples que permite o download de conteúdos educacionais quando há internet e seu uso completo em modo offline.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <p> Projeto EduOffline.</p>
+        </div>
+    </footer>
+</body>
+</html>
